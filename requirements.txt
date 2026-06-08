@@ -1,6 +1,15 @@
+# intentionally pinned old versions for CVE demo (scanned by Trivy)
 Flask==0.12.2
 Flask-SQLAlchemy==2.3.0
 PyJWT==1.7.1
 Flask-Bcrypt==0.7.1
 requests==2.18.4
 gunicorn>=21.2.0
+
+# transitive pins required to run Flask 0.12.2 on Python 3.9
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+Werkzeug==0.16.1
+itsdangerous==0.24
+click==7.1.2
+SQLAlchemy==1.2.19
