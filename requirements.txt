@@ -1,3 +1,4 @@
+setuptools
 Flask==0.12.2
 Flask-SQLAlchemy==2.3.0
 PyJWT==1.7.1
